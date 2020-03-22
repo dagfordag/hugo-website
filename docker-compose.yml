@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  hugo:
+    build:
+      context: .
+      args:
+        - CONTAINER_UID=${CONTAINER_UID:-1000}
+        - CONTAINER_GID=${CONTAINER_GID:-1000}
+    volumes:
+      - ./:/app
+    working_dir: /app
