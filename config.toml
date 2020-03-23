@@ -4,6 +4,9 @@ title = "Dag för dag"
 theme = "introduction"
 DefaultContentLanguage = "sv"
 
+[permalinks]
+    blog = "/blogg/:slug"
+
 [params]
     themeStyle                   = "light"                 # Choose "light" or "dark"
     favicon                      = "/img/fav.ico"          # Path to favicon file
@@ -82,7 +85,6 @@ DefaultContentLanguage = "sv"
         languageCode     = "sv-se"
         contentDir       = "content/sv"
         weight           = 0
-        title            = "Introduktion"
         [languages.sv.params]
-            description  = "Dag för dag-lägret är ett semesterläger för vuxna med funktionsvariationer."   # Max 160 characters show in search results
+            description  = "Dag för dag-lägret är ett semesterläger för vuxna med funktionsvariationer."
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
