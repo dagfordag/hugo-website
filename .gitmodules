@@ -1,6 +1,7 @@
 [submodule "themes/introduction"]
 	path = themes/introduction
-	url = git@github.com:victoriadrake/hugo-theme-introduction.git
+	url = git@github.com:dagfordag/hugo-theme-introduction.git
+	branch = dagfordag
 [submodule "public"]
 	path = public
 	url = git@github.com:dagfordag/dagfordag.github.io.git
