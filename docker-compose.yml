@@ -12,3 +12,10 @@ services:
     volumes:
       - ./:/app
     working_dir: /app
+
+  prod:
+    image: httpd:2.4
+    ports:
+      - "${DIST_PORT:-127.0.0.1:1314}:80/tcp"
+    volumes:
+      - ./public/:/usr/local/apache2/htdocs/
