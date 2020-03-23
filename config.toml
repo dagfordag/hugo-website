@@ -1,4 +1,4 @@
-baseURL = "http://dagfordag.se/"
+baseURL = "https://dagfordag.se/"
 languageCode = "sv-se"
 title = "Dag för dag"
 theme = "introduction"
