@@ -6,6 +6,9 @@ services:
       args:
         - CONTAINER_UID=${CONTAINER_UID:-1000}
         - CONTAINER_GID=${CONTAINER_GID:-1000}
+    ports:
+      - "${HUGO_PORT:-127.0.0.1:1313}:1313/tcp"
+    command: hugo server -D --bind 0.0.0.0
     volumes:
       - ./:/app
     working_dir: /app

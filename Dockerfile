@@ -24,5 +24,3 @@ RUN \
     git clone https://github.com/gohugoio/hugo.git && \
     cd hugo && \
     go install --tags extended
-
-CMD ["hugo"]
