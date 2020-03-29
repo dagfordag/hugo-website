@@ -13,7 +13,7 @@ Söndagen 29 mars kl. 14.00
 
 **För att vara med på årsmötet:**
 
-Klicka på denna länk: **_&lt;Här kommer vi att lägga en länk en liten stund innan årsmötet börjar&gt;_**
+[Klicka på denna länk](https://meet.google.com/izx-twph-ayc).
 
 Du kommer då hamna på en webbsida som ser ut ungefär såhär:
 ![Google Meet](/blogg/årsmöte-2020/google-meet.png)
